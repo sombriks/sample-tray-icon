@@ -15,4 +15,4 @@ testing tray icon
 
 ## caveats
 
-netbeans 
+some ide configs does not behaves well over different operating systems
