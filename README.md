@@ -9,7 +9,6 @@ testing tray icon
 - KDE
 - GNOME
 
-
 ## caveats
 
 some ide configs does not behaves well over different operating systems
