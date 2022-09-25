@@ -2,15 +2,12 @@
 
 testing tray icon
 
-## tray icon work on
+## tray icon works on
 
 - mac os
 - windows
-
-
-## tray icon does not work on 
-
-- gnome shell
+- KDE
+- GNOME
 
 
 ## caveats

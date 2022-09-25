@@ -31,6 +31,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 TrayIcon trayIcon = new TrayIcon(icon);
                 trayIcon.setImageAutoSize(true);
                 SystemTray.getSystemTray().add(trayIcon);
+                trayIcon.setPopupMenu(popupMenu1);
                 trayIcon.addMouseListener(new MouseAdapter() {
                     @Override
                     public void mouseClicked(MouseEvent me) {
@@ -52,9 +53,16 @@ public class NewJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        popupMenu1 = new java.awt.PopupMenu();
+        menuItem1 = new java.awt.MenuItem();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
+
+        popupMenu1.setLabel("popupMenu1");
+
+        menuItem1.setLabel("menuItem1");
+        popupMenu1.add(menuItem1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("dev runner");
@@ -139,5 +147,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private java.awt.MenuItem menuItem1;
+    private java.awt.PopupMenu popupMenu1;
     // End of variables declaration//GEN-END:variables
 }
